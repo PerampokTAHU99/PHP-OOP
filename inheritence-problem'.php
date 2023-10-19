@@ -35,12 +35,13 @@
         }
     }
 
+
     class PrintInfoProduct{
         public function print(product $product){
             $str = "{$product->title} |{$product->getLabel()} (Rp.$product->price)";
             return $str;
         }
-    }
+    }   
 
     $product1 = new Product("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100,0,"Comic");
     $product2 = new Product("Uncharted", "Neil Druckman", "Sony Computer", 2500000,0,50,"Game");
