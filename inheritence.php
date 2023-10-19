@@ -54,8 +54,8 @@
         }
     }   
 
-    $product1 = new Comic("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100,0);
-    $product2 = new Game("Uncharted", "Neil Druckman", "Sony Computer", 2500000,0,50);
+    $product1 = new Comic("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000, 100);
+    $product2 = new Game("Uncharted", "Neil Druckman", "Sony Computer", 2500000,0);
    
     echo $product1->getInfoProduct();
     echo "<br>";
