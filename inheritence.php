@@ -46,7 +46,6 @@
         }
     }
 
-
     class PrintInfoProduct{
         public function print(product $product){
             $str = "{$product->title} |{$product->getLabel()} (Rp.$product->price)";
